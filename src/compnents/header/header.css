@@ -1,16 +1,16 @@
 .header-outer-container {
     width: 100%;
-   /* position: fixed;*/
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(20,20,20);
+    
     background-color: transparent;
+    background-color: rgba(40, 36, 36, 0.562);
     height: 10vh;
     color: white;
-    background-color: rgb(20, 19, 19);
-    
+   
 }
 .header-container{
     width: 90%;
