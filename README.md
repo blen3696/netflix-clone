@@ -15,12 +15,6 @@ This is a **Netflix Clone** built with React, featuring a movie browsing interfa
 - **Axios**: Used for making API requests to fetch movie data.
 - **CSS**: Custom styles to create the layout and design.
 
-## Screenshots
-- **Home Screen**
-![Home Screen](link-to-your-screenshot)  
-- **Movie Detail with Trailer**
-![Movie Detail](link-to-your-screenshot)
-
 ## Installation
 
 ### Prerequisites
