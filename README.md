@@ -1,12 +1,14 @@
+
+```markdown
 # Netflix Clone Project
 
 This is a **Netflix Clone** built with React, featuring a movie browsing interface that fetches data from The Movie Database (TMDb) API. The app allows users to browse movies and TV shows, view movie posters, and watch trailers directly within the app. It mimics the look and feel of Netflix, providing a modern, responsive design.
 
 ## Features
-- Movie and TV Show Browsing: Browse various categories like "Popular," "Top Rated," "Trending," and more.
-- Movie Trailers: Click on a movie to watch the trailer directly in the app.
-- Responsive Design: Fully responsive layout that adapts to desktop, tablet, and mobile views.
-- Dynamic Movie Content: Fetches data dynamically from the TMDb API to keep the content up-to-date.
+- **Movie and TV Show Browsing**: Browse various categories like "Popular," "Top Rated," "Trending," and more.
+- **Movie Trailers**: Click on a movie to watch the trailer directly in the app.
+- **Responsive Design**: Fully responsive layout that adapts to desktop, tablet, and mobile views.
+- **Dynamic Movie Content**: Fetches data dynamically from the TMDb API to keep the content up-to-date.
 
 ## Technologies Used
 - **React**: Frontend framework to build the user interface.
@@ -47,6 +49,16 @@ This is a **Netflix Clone** built with React, featuring a movie browsing interfa
    npm start
    ```
 
+## Screenshots
+
+### Home Page
+
+![Home Page](https://github.com/blen3696/netflix-clone/blob/master/src/assets/home_img.png)
+
+### Movie Trailer
+
+![Movie Trailer](https://github.com/blen3696/netflix-clone/blob/master/src/assets/trailer_img.png)
+
 ## How It Works
 
 1. **Fetching Movie Data**: 
@@ -59,6 +71,9 @@ This is a **Netflix Clone** built with React, featuring a movie browsing interfa
 
 3. **Showing Movie Trailers**:
    - When a user clicks on a movie poster, the app fetches the trailer using the `movieTrailer` package and displays it using the `react-youtube` component.
+
+
+
 
 
 
