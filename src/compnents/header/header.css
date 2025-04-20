@@ -2,38 +2,119 @@
     width: 100%;
     position: fixed;
     top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    background-color: transparent;
-    background-color: rgba(40, 36, 36, 0.562);
+    background-color: rgba(0, 0, 0, 0.6);
     height: 10vh;
     color: white;
-   
-}
-.header-container{
-    width: 90%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .header-container {
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header-left ul{
+  }
+  
+  .header-left ul.nav-main {
     display: flex;
-    justify-content:left;
     align-items: center;
     list-style: none;
-}
-.header-left ul li {
-    margin: auto 15px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  
+  .header-left ul li {
+    margin: 0 10px;
     font-size: 15px;
-}
-.header-right ul {
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .header-left ul li img {
+    width: 100px;
+  }
+  
+
+  .header-right ul {
     display: flex;
-    justify-content:right;
     align-items: center;
     list-style: none;
-}
-.header-right ul li{
-    margin: auto 10px;
-}
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-right ul li {
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+
+  .nav-desktop {
+    display: inline;
+  }
+  
+  .nav-mobile-icon {
+    display: none;
+    font-size: 25px;
+  }
+  
+  /* Collapsible mobile menu */
+  .mobile-menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .mobile-menu ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .mobile-menu ul li {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Breakpoints */
+  @media (max-width: 900px) {
+    .nav-desktop {
+      display: none;
+    }
+  
+    .nav-mobile-icon {
+      display: block;
+    }
+  
+    .header-left ul li img {
+      width: 90px;
+    }
+  
+    .header-right ul li {
+      font-size: 18px;
+      margin: 0 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-left ul li img {
+      width: 80px;
+    }
+  
+    .header-right ul li {
+      font-size: 16px;
+    }
+  }
+  

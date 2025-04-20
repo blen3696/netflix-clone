@@ -5,6 +5,7 @@ import axios from '../../utils/axios';
 import './banner.css'
 
 const Banner = () => {
+
   const [movie, setMovie]= useState({});
   useEffect(() => {
     (async() => {
@@ -20,9 +21,11 @@ const Banner = () => {
     })()
   }, [])
 
+
   function truncate(str, n){
     return str?.length > n ? str.substr(0, n-1)+ '...': str;
   }
+  
   return (
     <div className='banner' 
     style={{

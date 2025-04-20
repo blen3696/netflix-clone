@@ -10,14 +10,6 @@ const Fotter = () =>{
      <div className="fotter-outer-container">
         <div className="fotter-inner-container">
 
-         <div className="fotter-icons">
-           <ul>
-             <li><Facebook /></li>
-             <li><Instagram /></li>
-             <li><Youtube /></li>
-           </ul>
-         </div>
-
          <div className="fotter-data">
         
          <div>
@@ -49,11 +41,14 @@ const Fotter = () =>{
             </ul>
          </div>
       </div>
-      <div className="service-code">
-        <p>
-            Service Code
-        </p>
-      </div>
+      <div className="fotter-icons">
+           <ul>
+             <li><Facebook /></li>
+             <li><Instagram /></li>
+             <li><Youtube /></li>
+           </ul>
+         </div>
+
       <div className="copy-right">
         &copy; 1997-2024 Netflix, Inc.
       </div>
